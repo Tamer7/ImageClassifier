@@ -51,8 +51,8 @@ The Model used and developed is a CNN neural network, it was trained on 60,000 i
 The model was compiled using adam optimizer and was trained on 15 epcohs as the result shown below:
  ![](/Images/model_training_image_15_epochs.PNG)
  
- Model training accuracy reached to : 80.2 percentage
- Model testing accuracy reached to : 70.02 percentage
+ - Model training accuracy reached to : 80.2 percentage
+ - Model testing accuracy reached to : 70.02 percentage
 
   
 
