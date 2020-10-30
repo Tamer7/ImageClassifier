@@ -1,6 +1,6 @@
 # Image Classification
 
-This is image classification program that predicts given images based on 10 classes listed below:
+This is an image classification program that predicts given images based on 10 classes listed below:
 - Plane, Car, Bird, Cat, Deer, Dog, Frog, Horse, Ship and Truck
 It uses a Convolutional Neural Network to train on the training dataset, 
 and predicts an ouput with over 70% accuracy.
@@ -45,6 +45,18 @@ c. Nagivate to the localhost shown in the terminal (in my case it is "http://127
 
 
 
+# Model Accuracy
+The Model used and developed is a CNN neural network, it was trained on 60,000 images, 50,000 training and 10,000 testing.
+6,000 images where trained per class. 
+The model was compiled using adam optimizer and was trained on 15 epcohs as the result shown below:
+ ![](/Images/model_training_image_15_epochs.PNG)
+ 
+ Model training accuracy reached to : 80.2 percentage
+ Model testing accuracy reached to : 70.02 percentage
+
+  
+
+
 
 
 # Built With
@@ -52,6 +64,9 @@ c. Nagivate to the localhost shown in the terminal (in my case it is "http://127
 - Python 
 - Tensorflow Library
 - Django
+
+# DataSet Used
+- Cifar10 dataset from the keras library
 
 
 
