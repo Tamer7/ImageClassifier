@@ -11,7 +11,7 @@ The cifar10 Dataset library from Keras was used to train the model of this appli
  1. Download and install Python 3 or higher from <a href="https://www.python.org/downloads/">here</a>
  2. Clone this repo to your local machine using:
   ```bash
- git clone https://github.com/Tamer7/Web-imageclassifer.git
+ git clone https://github.com/Tamer7/ImageClassifier.git
  ```
  3. Download the required packages by typing:
  ```bash
